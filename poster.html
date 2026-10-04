@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IG Story Kienon Perfumes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; }
+        /* Nisbah IG Story / WA Status */
+        .story-container { aspect-ratio: 9/16; max-width: 400px; width: 100%; }
+        .glow { text-shadow: 0 0 15px rgba(245, 158, 11, 0.6); }
+        .animate-float { animation: float 3s ease-in-out infinite; }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body class="bg-black flex items-center justify-center min-h-screen m-0 p-4">
+
+    <!-- KAWASAN POSTER (SCREENSHOT KOTAK NI) -->
+    <div class="story-container bg-gradient-to-b from-gray-900 via-gray-950 to-black rounded-[2rem] border-2 border-amber-500/20 relative overflow-hidden shadow-[0_0_50px_rgba(245,158,11,0.15)] flex flex-col justify-between items-center text-center p-6 md:p-8">
+        
+        <!-- Hiasan Cahaya Belakang -->
+        <div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-500/15 via-transparent to-transparent pointer-events-none"></div>
+
+        <!-- Bahagian Atas: Logo & Jenama -->
+        <div class="mt-4 z-10 w-full">
+            <div class="w-20 h-20 mx-auto bg-gray-950/80 backdrop-blur rounded-2xl border border-amber-500/40 p-2 flex items-center justify-center mb-5 shadow-2xl animate-float">
+                <!-- Guna logo.svg yang kau dah ada dalam folder -->
+                <img src="logo.svg" alt="Kienon Logo" class="w-full h-full object-contain" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/e/e8/Diamond-icon-gold.svg'">
+            </div>
+            <h1 class="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-500 to-yellow-600 tracking-widest uppercase glow">
+                Kienon<br>Perfumes
+            </h1>
+            <p class="text-[10px] text-gray-400 mt-2 tracking-[0.3em] uppercase">Exclusive Collector's Edition</p>
+        </div>
+
+        <!-- Bahagian Tengah: Tawaran / Copywriting -->
+        <div class="z-10 w-full space-y-6 my-2">
+            <div class="inline-block bg-red-600/20 border border-red-500/50 text-red-500 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider animate-pulse shadow-[0_0_15px_rgba(220,38,38,0.4)]">
+                Peluang Keemasan
+            </div>
+            
+            <h2 class="text-3xl font-extrabold text-white leading-tight">
+                OPEN FOR <br>
+                <span class="text-amber-500 glow">AGENT & RESELLER</span>
+            </h2>
+
+            <div class="bg-gray-950/60 backdrop-blur-md border border-gray-800 rounded-2xl p-5 w-full mx-auto shadow-inner">
+                <ul class="text-left text-sm text-gray-300 space-y-3 font-semibold">
+                    <li class="flex items-start gap-3">
+                        <span class="text-amber-500 mt-0.5">✔️</span> 
+                        <span>Pilihan *Safe to Blind Buy* (Afnan 9PM & Supremacy)</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-amber-500 mt-0.5">✔️</span> 
+                        <span>Harga Khas Reseller (Margin Untung Tinggi)</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-amber-500 mt-0.5">✔️</span> 
+                        <span>Sistem Website Disediakan</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bahagian Bawah: Call to Action -->
+        <div class="z-10 w-full mb-2">
+            <div class="bg-gradient-to-r from-amber-600 to-amber-400 text-black font-black py-3.5 px-6 rounded-xl w-full text-sm uppercase tracking-wider shadow-[0_0_20px_rgba(245,158,11,0.4)] mb-5">
+                Balas Story Ini Sekarang
+            </div>
+            
+            <!-- Link Website Bawah Sekali -->
+            <div class="inline-flex items-center justify-center gap-2 bg-gray-900 border border-gray-800 px-4 py-2 rounded-full">
+                <svg class="w-4 h-4 text-amber-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                <span class="text-xs text-gray-400 font-bold tracking-wider">kienonperfumes.github.io</span>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
